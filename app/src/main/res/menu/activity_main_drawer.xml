@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    android:background="@color/blue" >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/profile"
+            android:icon="@drawable/profile"
+            android:title="@string/profile" />
+        <item
+            android:id="@+id/incidents"
+            android:icon="@drawable/incident"
+            android:title="@string/incidents" />
+        <item
+            android:id="@+id/reports"
+            android:icon="@drawable/report"
+            android:title="@string/reports" />
+        <item
+            android:id="@+id/organizational_structure"
+            android:icon="@drawable/structures"
+            android:title="@string/organizational_structure">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/company"
+                        android:title="@string/company" />
+                    <item
+                        android:id="@+id/departments"
+                        android:title="@string/departments" />
+                    <item
+                        android:id="@+id/positions"
+                        android:title="@string/positions" />
+                </group>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/employees"
+                        android:title="@string/employees" />
+                </group>
+            </menu>
+
+
+        </item>
+        <item
+            android:id="@+id/types_of_incidents"
+            android:icon="@drawable/reference_book"
+            android:title="@string/types_of_incidents" >
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/type_of_incidents"
+                    android:title="@string/type_of_incidents" />
+                <item
+                    android:id="@+id/types_of_risks"
+                    android:title="@string/types_of_risks" />
+                <item
+                    android:id="@+id/locations"
+                    android:title="@string/locations" />
+                <item
+                    android:id="@+id/business_procedures_and_functions"
+                    android:title="@string/business_procedures_and_functions" />
+                <item
+                    android:id="@+id/achievements"
+                    android:title="@string/achievements" />
+            </group>
+        </menu>
+       </item>
+
+        <item
+            android:title="">
+            <menu>
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/exit"
+                    android:title="Выход"/>
+            </menu>
+        </item>
+    </group>
+</menu>

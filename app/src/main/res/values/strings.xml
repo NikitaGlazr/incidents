@@ -1,3 +1,28 @@
 <resources>
-    <string name="app_name">incidents</string>
+    <string name="app_name">инциденты</string>
+    <string name="title_activity_main">Главная</string>
+    <string name="navigation_drawer_open">Открыть панель навигации</string>
+    <string name="navigation_drawer_close">Закрыть панель навигации</string>
+    <string name="nav_header_title">Иван Иванов Иванович</string>
+    <string name="nav_header_subtitle">123@gmail.com</string>
+    <string name="nav_header_desc">Заголовок навигации</string>
+    <string name="action_settings">Настройки</string>
+
+    <string name="incidents">Инциденты</string>
+    <string name="reports">Отчеты</string>
+    <string name="organizational_structure">● Орг.структура</string>
+    <string name="types_of_incidents">● Инциденты</string>
+
+    <string name="company">Компания</string>
+    <string name="departments">Подразделения</string>
+    <string name="positions">Должности</string>
+    <string name="employees">Сотрудники</string>
+
+    <string name="type_of_incidents">Виды инцидентов</string>
+    <string name="types_of_risks">Виды рисков</string>
+    <string name="locations">Локации</string>
+    <string name="business_procedures_and_functions">Бизнес - процедуры и функции</string>
+    <string name="achievements">Достижения</string>
+
+    <string name="profile">Профиль</string>
 </resources>

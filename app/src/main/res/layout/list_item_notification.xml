@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/notificationTimestamp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="20.05.2024 13:56:12"
+        android:paddingBottom="8dp"
+        android:paddingTop="2dp"/>
+
+    <TextView
+        android:id="@+id/notificationType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Изменен статус инцидента"
+        android:paddingBottom="8dp"
+        android:paddingTop="2dp"/>
+
+    <TextView
+        android:id="@+id/notificationIncident"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Инцидент: тестовый текст"
+        android:paddingBottom="8dp"
+        android:paddingTop="2dp"/>
+
+    <TextView
+        android:id="@+id/notificationStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Новый статус: Классификация"
+        android:paddingBottom="8dp"
+        android:paddingTop="2dp"/>
+
+    <TextView
+        android:id="@+id/notificationComment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Комментарий: тестовый текст..."
+        android:paddingBottom="8dp"
+        android:paddingTop="2dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/black" />
+
+</LinearLayout>
